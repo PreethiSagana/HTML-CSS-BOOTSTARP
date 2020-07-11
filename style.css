@@ -1,0 +1,67 @@
+@media (max-width: 320px) {
+  body {
+    background-color: red;
+  }
+  .font-size {
+      font-size: 12px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: pink;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    background-color: teal;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 2561px) {
+  body {
+    background-color: purple;
+  }
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border-color: black;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.card-area {
+    background-color: white;
+    max-width: 300px;
+    padding: 10px;
+    height: 100px;
+}
